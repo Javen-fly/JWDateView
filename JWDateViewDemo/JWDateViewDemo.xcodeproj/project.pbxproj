@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EFFB6DCAA8AA4CCB875E07D /* libPods-JWDateViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5017AFFFAC0702F83DE87EFB /* libPods-JWDateViewDemo.a */; };
+		A60D6C6A226B0B86008E5A3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D6C69226B0B86008E5A3D /* AppDelegate.m */; };
+		A60D6C6D226B0B86008E5A3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D6C6C226B0B86008E5A3D /* ViewController.m */; };
+		A60D6C70226B0B86008E5A3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60D6C6E226B0B86008E5A3D /* Main.storyboard */; };
+		A60D6C72226B0B89008E5A3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60D6C71226B0B89008E5A3D /* Assets.xcassets */; };
+		A60D6C75226B0B89008E5A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60D6C73226B0B89008E5A3D /* LaunchScreen.storyboard */; };
+		A60D6C78226B0B89008E5A3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D6C77226B0B89008E5A3D /* main.m */; };
+		A60D6C81226B0D52008E5A3D /* JWDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D6C80226B0D52008E5A3D /* JWDatePickerView.m */; };
+		A60D6C84226B0EB4008E5A3D /* JWDateAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60D6C83226B0EB4008E5A3D /* JWDateAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5017AFFFAC0702F83DE87EFB /* libPods-JWDateViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWDateViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		681DB2B8F3F448339A598556 /* Pods-JWDateViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWDateViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWDateViewDemo/Pods-JWDateViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		773EB7D3867A06CA39BD01DE /* Pods-JWDateViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWDateViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWDateViewDemo/Pods-JWDateViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A60D6C65226B0B86008E5A3D /* JWDateViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWDateViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A60D6C68226B0B86008E5A3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A60D6C69226B0B86008E5A3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A60D6C6B226B0B86008E5A3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A60D6C6C226B0B86008E5A3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A60D6C6F226B0B86008E5A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A60D6C71226B0B89008E5A3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A60D6C74226B0B89008E5A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A60D6C76226B0B89008E5A3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A60D6C77226B0B89008E5A3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A60D6C7F226B0D52008E5A3D /* JWDatePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDatePickerView.h; sourceTree = "<group>"; };
+		A60D6C80226B0D52008E5A3D /* JWDatePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDatePickerView.m; sourceTree = "<group>"; };
+		A60D6C82226B0EB4008E5A3D /* JWDateAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JWDateAlertView.h; sourceTree = "<group>"; };
+		A60D6C83226B0EB4008E5A3D /* JWDateAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWDateAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A60D6C62226B0B86008E5A3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFFB6DCAA8AA4CCB875E07D /* libPods-JWDateViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FBC50A96A844C70D745A65A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5017AFFFAC0702F83DE87EFB /* libPods-JWDateViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C16798888875099A36A1952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				773EB7D3867A06CA39BD01DE /* Pods-JWDateViewDemo.debug.xcconfig */,
+				681DB2B8F3F448339A598556 /* Pods-JWDateViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A60D6C5C226B0B85008E5A3D = {
+			isa = PBXGroup;
+			children = (
+				A60D6C7E226B0CC8008E5A3D /* JWDateView */,
+				A60D6C67226B0B86008E5A3D /* JWDateViewDemo */,
+				A60D6C66226B0B86008E5A3D /* Products */,
+				1C16798888875099A36A1952 /* Pods */,
+				0FBC50A96A844C70D745A65A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A60D6C66226B0B86008E5A3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A60D6C65226B0B86008E5A3D /* JWDateViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60D6C67226B0B86008E5A3D /* JWDateViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A60D6C68226B0B86008E5A3D /* AppDelegate.h */,
+				A60D6C69226B0B86008E5A3D /* AppDelegate.m */,
+				A60D6C6B226B0B86008E5A3D /* ViewController.h */,
+				A60D6C6C226B0B86008E5A3D /* ViewController.m */,
+				A60D6C6E226B0B86008E5A3D /* Main.storyboard */,
+				A60D6C71226B0B89008E5A3D /* Assets.xcassets */,
+				A60D6C73226B0B89008E5A3D /* LaunchScreen.storyboard */,
+				A60D6C76226B0B89008E5A3D /* Info.plist */,
+				A60D6C77226B0B89008E5A3D /* main.m */,
+			);
+			path = JWDateViewDemo;
+			sourceTree = "<group>";
+		};
+		A60D6C7E226B0CC8008E5A3D /* JWDateView */ = {
+			isa = PBXGroup;
+			children = (
+				A60D6C7F226B0D52008E5A3D /* JWDatePickerView.h */,
+				A60D6C80226B0D52008E5A3D /* JWDatePickerView.m */,
+				A60D6C82226B0EB4008E5A3D /* JWDateAlertView.h */,
+				A60D6C83226B0EB4008E5A3D /* JWDateAlertView.m */,
+			);
+			name = JWDateView;
+			path = ../JWDateView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60D6C64226B0B86008E5A3D /* JWDateViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60D6C7B226B0B89008E5A3D /* Build configuration list for PBXNativeTarget "JWDateViewDemo" */;
+			buildPhases = (
+				13801C58B6D0557D0B40A75B /* [CP] Check Pods Manifest.lock */,
+				A60D6C61226B0B86008E5A3D /* Sources */,
+				A60D6C62226B0B86008E5A3D /* Frameworks */,
+				A60D6C63226B0B86008E5A3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWDateViewDemo;
+			productName = JWDateViewDemo;
+			productReference = A60D6C65226B0B86008E5A3D /* JWDateViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60D6C5D226B0B85008E5A3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Javen;
+				TargetAttributes = {
+					A60D6C64226B0B86008E5A3D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A60D6C60226B0B85008E5A3D /* Build configuration list for PBXProject "JWDateViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A60D6C5C226B0B85008E5A3D;
+			productRefGroup = A60D6C66226B0B86008E5A3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60D6C64226B0B86008E5A3D /* JWDateViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A60D6C63226B0B86008E5A3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D6C75226B0B89008E5A3D /* LaunchScreen.storyboard in Resources */,
+				A60D6C72226B0B89008E5A3D /* Assets.xcassets in Resources */,
+				A60D6C70226B0B86008E5A3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13801C58B6D0557D0B40A75B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWDateViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A60D6C61226B0B86008E5A3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60D6C6D226B0B86008E5A3D /* ViewController.m in Sources */,
+				A60D6C81226B0D52008E5A3D /* JWDatePickerView.m in Sources */,
+				A60D6C84226B0EB4008E5A3D /* JWDateAlertView.m in Sources */,
+				A60D6C78226B0B89008E5A3D /* main.m in Sources */,
+				A60D6C6A226B0B86008E5A3D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A60D6C6E226B0B86008E5A3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60D6C6F226B0B86008E5A3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A60D6C73226B0B89008E5A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A60D6C74226B0B89008E5A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A60D6C79226B0B89008E5A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A60D6C7A226B0B89008E5A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60D6C7C226B0B89008E5A3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773EB7D3867A06CA39BD01DE /* Pods-JWDateViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGFZF888WC;
+				INFOPLIST_FILE = JWDateViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Javen.JWDateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A60D6C7D226B0B89008E5A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681DB2B8F3F448339A598556 /* Pods-JWDateViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGFZF888WC;
+				INFOPLIST_FILE = JWDateViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Javen.JWDateViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60D6C60226B0B85008E5A3D /* Build configuration list for PBXProject "JWDateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60D6C79226B0B89008E5A3D /* Debug */,
+				A60D6C7A226B0B89008E5A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60D6C7B226B0B89008E5A3D /* Build configuration list for PBXNativeTarget "JWDateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60D6C7C226B0B89008E5A3D /* Debug */,
+				A60D6C7D226B0B89008E5A3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60D6C5D226B0B85008E5A3D /* Project object */;
+}

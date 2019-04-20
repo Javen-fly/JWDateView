@@ -1,0 +1,20 @@
+PODS:
+  - JWLunarCalendarDB (1.1.2)
+  - JWPickerView (1.0.0)
+
+DEPENDENCIES:
+  - JWLunarCalendarDB
+  - JWPickerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JWLunarCalendarDB
+    - JWPickerView
+
+SPEC CHECKSUMS:
+  JWLunarCalendarDB: 64348bf192760e03e45aa00b1ad90daddba2f276
+  JWPickerView: 7dc4d4393670c06b3ca43f5991994dfd05460b52
+
+PODFILE CHECKSUM: 87d2db2ad1feeb0a1e55e58009bc94204069ffb0
+
+COCOAPODS: 1.5.3

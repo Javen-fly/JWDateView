@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028E2008634157E7FF08A4318110387F /* JWPickerItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E3BDA3D935B1296ED190FBA71D0083 /* JWPickerItemViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1EC7F44FE0E5B856797326CCA4C9A463 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		2DEA4298FAC9EF5AE1F926FDF0CB4923 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD46FBC041420035C341CC6342582587 /* UIKit.framework */; };
+		378D2167CF184A8D31067EBA4A5C44E4 /* JWLunarDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B4557D03659E70F7204E300615F9C1 /* JWLunarDate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3C820552E11EB2D8584793B3D47DBB88 /* JWDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 7933C77C57F013BC5298F80457B39258 /* JWDateUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48950929A084C44E21428F03E2715C00 /* JWSolarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7CBE93EABE3C69DC11EFC85E39013 /* JWSolarDate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5E8FE7BEA258487EA57F14618C999590 /* JWPickerItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = C51DA8D95A55EC3994CBD5FDC8304400 /* JWPickerItemView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5EAF3AA9BE255E45C491CC86ED38928C /* JWSolarDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D1A40B7EFFF4ADFB6165149EAA417A /* JWSolarDate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		653F5446BE07F4AC9780C2539D217FBA /* JWPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D16656A65AA2C2FB60A3B17E5F06A43F /* JWPickerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		66BE429D9C58D1CFA15FD25BDB263AE8 /* Pods-JWDateViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5FDB650EB7274E67C1FCEE270664050 /* Pods-JWDateViewDemo-dummy.m */; };
+		94BB4CAA0FE0D7F8D0A94040A06A5EAF /* JWLunarCalendarDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 32AB7E613B5711B2DDE7F2E5878A0C06 /* JWLunarCalendarDB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9F9A8F6051940EB8FEEBD910FC3381EF /* JWPickerItemViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 566A01DCF1ACA04EF734C7D9EBF3696D /* JWPickerItemViewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC77D66FE8F1E2A0F955D7E08F386D4F /* JWPickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E3CE5331199841D686B68A27DE8653 /* JWPickerItemView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AEE0FF8E44D1C3E72BCD104FD03E44A7 /* JWLunarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBAE6700A2D3482DDF6C8883562999D /* JWLunarDate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AF8F7B69E1EFAA116CED4602D35EC595 /* JWLunarCalendarDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C9C7AAC0B3A8C77480B0349D27A40 /* JWLunarCalendarDB.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BCA440D6A0197EAFFD648CFED9B84D8D /* JWPickerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AEBB953366AC73175985D40A2F4CEF /* JWPickerView-dummy.m */; };
+		C8F05B56DF07E674CFC2BF109F25F9B0 /* JWPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F50C341ECC9B6E59C81383032CA7D1 /* JWPickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CE817F8B459806DEA97C13968531AD61 /* JWDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CB9118482C6468959E5F885192EA6E /* JWDateUtil.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F25B6C2ABC2D1CAFC93711EC449E6E62 /* JWLunarCalendarDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE2A174EACFFC581029713DAACFB17 /* JWLunarCalendarDB-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E26C484570CC3623CC3EA8246727575 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBF212D77B15C8BB67C16F137ED2542;
+			remoteInfo = JWLunarCalendarDB;
+		};
+		F4A90FBE5A741C2DCD6524F512BE5D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D58EE1A42B25D6DE6DC5D02C10EBB12;
+			remoteInfo = JWPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E81E932FC2D6F5F33DB20625F98592 /* JWPickerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWPickerView-prefix.pch"; sourceTree = "<group>"; };
+		1DFF6AB7A851C91C25894E6A168EEA34 /* libPods-JWDateViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JWDateViewDemo.a"; path = "libPods-JWDateViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2346DD7AC3DC4D5C7B7450F1E2EC360B /* libJWLunarCalendarDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJWLunarCalendarDB.a; path = libJWLunarCalendarDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		29AD7BA8F04B2137890FE9036DF40416 /* Pods-JWDateViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWDateViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DB7CBE93EABE3C69DC11EFC85E39013 /* JWSolarDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWSolarDate.m; path = JWLunarCalendarDB/JWSolarDate.m; sourceTree = "<group>"; };
+		30F50C341ECC9B6E59C81383032CA7D1 /* JWPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWPickerView.h; path = JWPickerView/JWPickerView.h; sourceTree = "<group>"; };
+		32AB7E613B5711B2DDE7F2E5878A0C06 /* JWLunarCalendarDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWLunarCalendarDB.h; path = JWLunarCalendarDB/JWLunarCalendarDB.h; sourceTree = "<group>"; };
+		36AA76C87AE2923223DC1DFC7BB9587A /* JWPickerView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWPickerView.xcconfig; sourceTree = "<group>"; };
+		36D1A40B7EFFF4ADFB6165149EAA417A /* JWSolarDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWSolarDate.h; path = JWLunarCalendarDB/JWSolarDate.h; sourceTree = "<group>"; };
+		4A96EF5AB719169F5C998961500BDAC8 /* Pods-JWDateViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWDateViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		566A01DCF1ACA04EF734C7D9EBF3696D /* JWPickerItemViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWPickerItemViewCell.h; path = JWPickerView/JWPickerItemViewCell.h; sourceTree = "<group>"; };
+		588238DD091936C235123C4D226A5A9C /* libJWPickerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJWPickerView.a; path = libJWPickerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D8826CB9415BB45C82C815CCF58EB63 /* JWLunarCalendarDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWLunarCalendarDB.xcconfig; sourceTree = "<group>"; };
+		65B4557D03659E70F7204E300615F9C1 /* JWLunarDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWLunarDate.h; path = JWLunarCalendarDB/JWLunarDate.h; sourceTree = "<group>"; };
+		705C9C7AAC0B3A8C77480B0349D27A40 /* JWLunarCalendarDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWLunarCalendarDB.m; path = JWLunarCalendarDB/JWLunarCalendarDB.m; sourceTree = "<group>"; };
+		77CB9118482C6468959E5F885192EA6E /* JWDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWDateUtil.m; path = JWLunarCalendarDB/JWDateUtil.m; sourceTree = "<group>"; };
+		7933C77C57F013BC5298F80457B39258 /* JWDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWDateUtil.h; path = JWLunarCalendarDB/JWDateUtil.h; sourceTree = "<group>"; };
+		82E3CE5331199841D686B68A27DE8653 /* JWPickerItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWPickerItemView.m; path = JWPickerView/JWPickerItemView.m; sourceTree = "<group>"; };
+		83E3BDA3D935B1296ED190FBA71D0083 /* JWPickerItemViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWPickerItemViewCell.m; path = JWPickerView/JWPickerItemViewCell.m; sourceTree = "<group>"; };
+		91EBBCA98FEA4844EA30C9AE6B4891E0 /* Pods-JWDateViewDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWDateViewDemo-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5BE2A174EACFFC581029713DAACFB17 /* JWLunarCalendarDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWLunarCalendarDB-dummy.m"; sourceTree = "<group>"; };
+		BD8348899FAD326D0C35F219C56A484C /* Pods-JWDateViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWDateViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C51DA8D95A55EC3994CBD5FDC8304400 /* JWPickerItemView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JWPickerItemView.h; path = JWPickerView/JWPickerItemView.h; sourceTree = "<group>"; };
+		C5DFE723C80F99F3E7A83D23ACF7398A /* Pods-JWDateViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWDateViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AEBB953366AC73175985D40A2F4CEF /* JWPickerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWPickerView-dummy.m"; sourceTree = "<group>"; };
+		CEBAE6700A2D3482DDF6C8883562999D /* JWLunarDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWLunarDate.m; path = JWLunarCalendarDB/JWLunarDate.m; sourceTree = "<group>"; };
+		D16656A65AA2C2FB60A3B17E5F06A43F /* JWPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JWPickerView.m; path = JWPickerView/JWPickerView.m; sourceTree = "<group>"; };
+		DD46FBC041420035C341CC6342582587 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E7959DCF16D2A3A09FC07913AFFFBEC1 /* Pods-JWDateViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWDateViewDemo-resources.sh"; sourceTree = "<group>"; };
+		EBE41D3E8F56E4344FD684EC6D692D7D /* JWLunarCalendarDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWLunarCalendarDB-prefix.pch"; sourceTree = "<group>"; };
+		F5FDB650EB7274E67C1FCEE270664050 /* Pods-JWDateViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWDateViewDemo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F88D6E9FAA89DD119BEA5B9019DD02F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEA4298FAC9EF5AE1F926FDF0CB4923 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DFA17EE2E60D368174FE541B8ED0A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EC7F44FE0E5B856797326CCA4C9A463 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA232C4F5AD09CD5DED73E479A0D29FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0179DF743C3C1F5D4C133D49102272DB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D8826CB9415BB45C82C815CCF58EB63 /* JWLunarCalendarDB.xcconfig */,
+				A5BE2A174EACFFC581029713DAACFB17 /* JWLunarCalendarDB-dummy.m */,
+				EBE41D3E8F56E4344FD684EC6D692D7D /* JWLunarCalendarDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWLunarCalendarDB";
+			sourceTree = "<group>";
+		};
+		081720CCC6A15E49955F727F1AAB7384 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36AA76C87AE2923223DC1DFC7BB9587A /* JWPickerView.xcconfig */,
+				C9AEBB953366AC73175985D40A2F4CEF /* JWPickerView-dummy.m */,
+				17E81E932FC2D6F5F33DB20625F98592 /* JWPickerView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JWPickerView";
+			sourceTree = "<group>";
+		};
+		188B281E5FD38B79FE77991E54184FFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E6D95A093BA764A04BDFF66759B2887 /* JWLunarCalendarDB */,
+				373872140C2D29E36981AC63E8596A9A /* JWPickerView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		373872140C2D29E36981AC63E8596A9A /* JWPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C51DA8D95A55EC3994CBD5FDC8304400 /* JWPickerItemView.h */,
+				82E3CE5331199841D686B68A27DE8653 /* JWPickerItemView.m */,
+				566A01DCF1ACA04EF734C7D9EBF3696D /* JWPickerItemViewCell.h */,
+				83E3BDA3D935B1296ED190FBA71D0083 /* JWPickerItemViewCell.m */,
+				30F50C341ECC9B6E59C81383032CA7D1 /* JWPickerView.h */,
+				D16656A65AA2C2FB60A3B17E5F06A43F /* JWPickerView.m */,
+				081720CCC6A15E49955F727F1AAB7384 /* Support Files */,
+			);
+			name = JWPickerView;
+			path = JWPickerView;
+			sourceTree = "<group>";
+		};
+		525FA4EBEFBA2531F8DBB93C78E030B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2346DD7AC3DC4D5C7B7450F1E2EC360B /* libJWLunarCalendarDB.a */,
+				588238DD091936C235123C4D226A5A9C /* libJWPickerView.a */,
+				1DFF6AB7A851C91C25894E6A168EEA34 /* libPods-JWDateViewDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		622AD4EBA5ACA0A0E78D9605F6836FC1 /* Pods-JWDateViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				29AD7BA8F04B2137890FE9036DF40416 /* Pods-JWDateViewDemo-acknowledgements.markdown */,
+				4A96EF5AB719169F5C998961500BDAC8 /* Pods-JWDateViewDemo-acknowledgements.plist */,
+				F5FDB650EB7274E67C1FCEE270664050 /* Pods-JWDateViewDemo-dummy.m */,
+				91EBBCA98FEA4844EA30C9AE6B4891E0 /* Pods-JWDateViewDemo-frameworks.sh */,
+				E7959DCF16D2A3A09FC07913AFFFBEC1 /* Pods-JWDateViewDemo-resources.sh */,
+				C5DFE723C80F99F3E7A83D23ACF7398A /* Pods-JWDateViewDemo.debug.xcconfig */,
+				BD8348899FAD326D0C35F219C56A484C /* Pods-JWDateViewDemo.release.xcconfig */,
+			);
+			name = "Pods-JWDateViewDemo";
+			path = "Target Support Files/Pods-JWDateViewDemo";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				188B281E5FD38B79FE77991E54184FFC /* Pods */,
+				525FA4EBEFBA2531F8DBB93C78E030B9 /* Products */,
+				A9A535977F6B380355A82458E05593E5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E6D95A093BA764A04BDFF66759B2887 /* JWLunarCalendarDB */ = {
+			isa = PBXGroup;
+			children = (
+				7933C77C57F013BC5298F80457B39258 /* JWDateUtil.h */,
+				77CB9118482C6468959E5F885192EA6E /* JWDateUtil.m */,
+				32AB7E613B5711B2DDE7F2E5878A0C06 /* JWLunarCalendarDB.h */,
+				705C9C7AAC0B3A8C77480B0349D27A40 /* JWLunarCalendarDB.m */,
+				65B4557D03659E70F7204E300615F9C1 /* JWLunarDate.h */,
+				CEBAE6700A2D3482DDF6C8883562999D /* JWLunarDate.m */,
+				36D1A40B7EFFF4ADFB6165149EAA417A /* JWSolarDate.h */,
+				2DB7CBE93EABE3C69DC11EFC85E39013 /* JWSolarDate.m */,
+				0179DF743C3C1F5D4C133D49102272DB /* Support Files */,
+			);
+			name = JWLunarCalendarDB;
+			path = JWLunarCalendarDB;
+			sourceTree = "<group>";
+		};
+		A9A535977F6B380355A82458E05593E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				622AD4EBA5ACA0A0E78D9605F6836FC1 /* Pods-JWDateViewDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B08143E740C3777FEB0D3A952141C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5B08143E740C3777FEB0D3A952141C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD46FBC041420035C341CC6342582587 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C9F17DC21FDE970EF240A28CCAB1AC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E8FE7BEA258487EA57F14618C999590 /* JWPickerItemView.h in Headers */,
+				9F9A8F6051940EB8FEEBD910FC3381EF /* JWPickerItemViewCell.h in Headers */,
+				C8F05B56DF07E674CFC2BF109F25F9B0 /* JWPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C39795664DCA53E920230905B538986F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C820552E11EB2D8584793B3D47DBB88 /* JWDateUtil.h in Headers */,
+				94BB4CAA0FE0D7F8D0A94040A06A5EAF /* JWLunarCalendarDB.h in Headers */,
+				378D2167CF184A8D31067EBA4A5C44E4 /* JWLunarDate.h in Headers */,
+				5EAF3AA9BE255E45C491CC86ED38928C /* JWSolarDate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D58EE1A42B25D6DE6DC5D02C10EBB12 /* JWPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4FC1FC90AEEAFB50AD194A8B46AD25 /* Build configuration list for PBXNativeTarget "JWPickerView" */;
+			buildPhases = (
+				70E4BE1BA41746FB6C5A3451C18A2DAC /* Sources */,
+				2DFA17EE2E60D368174FE541B8ED0A06 /* Frameworks */,
+				8C9F17DC21FDE970EF240A28CCAB1AC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWPickerView;
+			productName = JWPickerView;
+			productReference = 588238DD091936C235123C4D226A5A9C /* libJWPickerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		912E72144E4BE546F56DEEC0C400C0A0 /* Pods-JWDateViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7A0E3A7086FB5C5F4A5A6B147A6C60 /* Build configuration list for PBXNativeTarget "Pods-JWDateViewDemo" */;
+			buildPhases = (
+				AE626F9E8C88CDD4517581561845B723 /* Sources */,
+				BA232C4F5AD09CD5DED73E479A0D29FD /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BEF1C696A81E56EFFA93DA0C1775EE /* PBXTargetDependency */,
+				DD31E590871A7C04EF14D43580A197C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWDateViewDemo";
+			productName = "Pods-JWDateViewDemo";
+			productReference = 1DFF6AB7A851C91C25894E6A168EEA34 /* libPods-JWDateViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EFBF212D77B15C8BB67C16F137ED2542 /* JWLunarCalendarDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69AF867CD9DF0A00A82D2912406AA92E /* Build configuration list for PBXNativeTarget "JWLunarCalendarDB" */;
+			buildPhases = (
+				DE42382626E88633CC0F6C3EA1EA40D6 /* Sources */,
+				0F88D6E9FAA89DD119BEA5B9019DD02F /* Frameworks */,
+				C39795664DCA53E920230905B538986F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWLunarCalendarDB;
+			productName = JWLunarCalendarDB;
+			productReference = 2346DD7AC3DC4D5C7B7450F1E2EC360B /* libJWLunarCalendarDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 525FA4EBEFBA2531F8DBB93C78E030B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBF212D77B15C8BB67C16F137ED2542 /* JWLunarCalendarDB */,
+				7D58EE1A42B25D6DE6DC5D02C10EBB12 /* JWPickerView */,
+				912E72144E4BE546F56DEEC0C400C0A0 /* Pods-JWDateViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70E4BE1BA41746FB6C5A3451C18A2DAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC77D66FE8F1E2A0F955D7E08F386D4F /* JWPickerItemView.m in Sources */,
+				028E2008634157E7FF08A4318110387F /* JWPickerItemViewCell.m in Sources */,
+				BCA440D6A0197EAFFD648CFED9B84D8D /* JWPickerView-dummy.m in Sources */,
+				653F5446BE07F4AC9780C2539D217FBA /* JWPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE626F9E8C88CDD4517581561845B723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66BE429D9C58D1CFA15FD25BDB263AE8 /* Pods-JWDateViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE42382626E88633CC0F6C3EA1EA40D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE817F8B459806DEA97C13968531AD61 /* JWDateUtil.m in Sources */,
+				F25B6C2ABC2D1CAFC93711EC449E6E62 /* JWLunarCalendarDB-dummy.m in Sources */,
+				AF8F7B69E1EFAA116CED4602D35EC595 /* JWLunarCalendarDB.m in Sources */,
+				AEE0FF8E44D1C3E72BCD104FD03E44A7 /* JWLunarDate.m in Sources */,
+				48950929A084C44E21428F03E2715C00 /* JWSolarDate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5BEF1C696A81E56EFFA93DA0C1775EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWLunarCalendarDB;
+			target = EFBF212D77B15C8BB67C16F137ED2542 /* JWLunarCalendarDB */;
+			targetProxy = 9E26C484570CC3623CC3EA8246727575 /* PBXContainerItemProxy */;
+		};
+		DD31E590871A7C04EF14D43580A197C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWPickerView;
+			target = 7D58EE1A42B25D6DE6DC5D02C10EBB12 /* JWPickerView */;
+			targetProxy = F4A90FBE5A741C2DCD6524F512BE5D78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09BE1160F8FC7164E29D32775E927A74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DFE723C80F99F3E7A83D23ACF7398A /* Pods-JWDateViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C5E4706A7FE06CE0FBD6DF26AC047EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AA76C87AE2923223DC1DFC7BB9587A /* JWPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWPickerView/JWPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWPickerView;
+				PRODUCT_NAME = JWPickerView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9FEC65C6F9F2E950A9DE3E9D23982544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8826CB9415BB45C82C815CCF58EB63 /* JWLunarCalendarDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWLunarCalendarDB/JWLunarCalendarDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWLunarCalendarDB;
+				PRODUCT_NAME = JWLunarCalendarDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA36B0FECE6E77CD31127399D10DED4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8826CB9415BB45C82C815CCF58EB63 /* JWLunarCalendarDB.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWLunarCalendarDB/JWLunarCalendarDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWLunarCalendarDB;
+				PRODUCT_NAME = JWLunarCalendarDB;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA4A92D45A62FCEE1934928BB3B41590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36AA76C87AE2923223DC1DFC7BB9587A /* JWPickerView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JWPickerView/JWPickerView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JWPickerView;
+				PRODUCT_NAME = JWPickerView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6B78C7F8C331EBB80F65B1E7A9BA19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8348899FAD326D0C35F219C56A484C /* Pods-JWDateViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69AF867CD9DF0A00A82D2912406AA92E /* Build configuration list for PBXNativeTarget "JWLunarCalendarDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA36B0FECE6E77CD31127399D10DED4D /* Debug */,
+				9FEC65C6F9F2E950A9DE3E9D23982544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4FC1FC90AEEAFB50AD194A8B46AD25 /* Build configuration list for PBXNativeTarget "JWPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4A92D45A62FCEE1934928BB3B41590 /* Debug */,
+				6C5E4706A7FE06CE0FBD6DF26AC047EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7A0E3A7086FB5C5F4A5A6B147A6C60 /* Build configuration list for PBXNativeTarget "Pods-JWDateViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09BE1160F8FC7164E29D32775E927A74 /* Debug */,
+				F6B78C7F8C331EBB80F65B1E7A9BA19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
